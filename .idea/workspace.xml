@@ -37,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -208,18 +209,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1582888761674" />
-    <state x="423" y="124" key="CommitChangelistDialog2" timestamp="1584020747437">
+    <state x="423" y="124" key="CommitChangelistDialog2" timestamp="1584020833984">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="423" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584020747437" />
+    <state x="423" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584020833984" />
     <state x="466" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1584012301262">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583238734359" />
     <state x="466" y="284" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584012301262" />
-    <state x="498" y="282" width="683" height="486" key="find.popup" timestamp="1584020621575">
+    <state x="498" y="282" width="837" height="486" key="find.popup" timestamp="1584020923830">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="498" y="282" width="683" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584020621575" />
+    <state x="498" y="282" width="837" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584020923830" />
   </component>
 </project>
