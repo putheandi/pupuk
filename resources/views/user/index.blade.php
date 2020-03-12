@@ -55,7 +55,7 @@
                                 @if(count($user) > 0)
                                     @foreach($user as $data)
                                         <tr>
-                                            <td>{{ $data->nama }}</td>
+                                            <td>{{ $data->name }}</td>
                                             <td>{{ $data->username }}</td>
                                             <td class="project-actions">
                                                 <a href="{{ route('user.edit', [$data]) }}" class="btn btn-info btn-sm">

@@ -23,7 +23,7 @@ class StokController extends Controller
             'jumlah.integer' => 'Jumlah Stok Harus Menggunakan Angka dan bulat',
             // 'keterangan.required' => 'Isi Keterangan',
         ]);
-                
+
         $barang = Barang::find($id);
         if ($data['jumlah'] < 0 && $barang->jumlah+$data['jumlah'] < 0){
             return redirect()->back()->with('error', 'Pengurangan Stok Melebihi Batas, Stok Sisa '.+$barang['jumlah']);
@@ -31,9 +31,9 @@ class StokController extends Controller
 
         $data['id_barang'] = $barang->id;
         if ($data['jumlah'] > 0) {
-            $data['keterangan'] = 'tambah stok, '.+$data['keterangan'];
+            $data['keterangan'] = 'tambah stok, '.$data['keterangan'];
         } else {
-            $data['keterangan'] = 'kurang stok, '.+$data['keterangan'];
+            $data['keterangan'] = 'kurang stok, '.$data['keterangan'];
         }
         Stok::create($data);
 
@@ -45,7 +45,7 @@ class StokController extends Controller
             'id_user' => auth()->user()->id,
             'id_barang' => $barang->id,
             'jumlah' => $barang->jumlah,
-            'status' => $data['keterangan'],    
+            'status' => $data['keterangan'],
         ];
         History::create($history);
 

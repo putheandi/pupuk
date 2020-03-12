@@ -23,9 +23,6 @@
         <section class="content">
             <!-- Horizontal Form -->
             <div class="card card-solid">
-                <div class="card-header">
-                    <h3 class="card-title">Horizontal Form</h3>
-                </div>
                 <!-- /.card-header -->
                 <!-- form start -->
                 <form class="form-horizontal" action="{{ route('user.update', [$user]) }}" method="post">

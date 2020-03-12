@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1b86074-b5e1-470e-a159-b1bdb1cea386" name="Default Changelist" comment="" />
+    <list default="true" id="d1b86074-b5e1-470e-a159-b1bdb1cea386" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StokController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StokController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/barang/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/barang/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/barang/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/barang/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/barang/stok.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/barang/stok.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/jenispaket/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/jenispaket/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/jenispaket/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/jenispaket/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/penjualan/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/penjualan/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +34,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -114,16 +139,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/inc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\xampp\htdocs\pupuk\resources\views\inc" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\pupuk\app" />
       <recent name="C:\xampp\htdocs\pupuk\app\Model" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\pupuk\resources\views\inc" />
     </key>
   </component>
   <component name="RunManager">
@@ -162,6 +194,9 @@
       <workItem from="1582992720779" duration="12076000" />
       <workItem from="1583238734159" duration="13141000" />
       <workItem from="1583484363335" duration="600000" />
+      <workItem from="1584007068095" duration="349000" />
+      <workItem from="1584012276776" duration="31000" />
+      <workItem from="1584016568586" duration="1726000" />
     </task>
     <servers />
   </component>
@@ -173,9 +208,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1582888761674" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1583238734359">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="423" y="124" key="CommitChangelistDialog2" timestamp="1584020747437">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="423" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584020747437" />
+    <state x="466" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1584012301262">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583238734359" />
+    <state x="466" y="284" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584012301262" />
+    <state x="498" y="282" width="683" height="486" key="find.popup" timestamp="1584020621575">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="498" y="282" width="683" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584020621575" />
   </component>
 </project>
