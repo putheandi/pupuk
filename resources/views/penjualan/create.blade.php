@@ -23,17 +23,14 @@
         <section class="content">
             <!-- Horizontal Form -->
             <div class="card card-solid">
-                <div class="card-header">
-                    <h3 class="card-title">Horizontal Form</h3>
-                </div>
                 <!-- /.card-header -->
                 <form class="form-horizontal" action="" method="">
                     {{--                    @csrf--}}
                     <div class="card-body">
                         @include('inc.messages')
                         <div id="dom" class="form-group row">
-                            <label class="col-lg-2 col-form-label">Nama Barang</label>
-                            <div class="col-lg-2">
+                            <label class="col-sm-2 col-form-label">Nama Barang</label>
+                            <div class="col-sm-2">
                                 <select id="barang" name="nama_barang" class="form-control">
                                     <option value="0" disabled="true" selected="true">-Select-</option>
                                     @foreach($barang as $data)
@@ -44,19 +41,19 @@
                                 </select>
                             </div>
 
-                            <label for="" class="offset-lg-1 col-lg-1 col-form-label">Harga</label>
-                            <div class="col-lg-2">
+                            <label for="" class="offset-sm-1 col-lg-1 col-form-label">Harga</label>
+                            <div class="col-sm-2">
                                 <label id="harga" class="form-control"></label>
                             </div>
 
-                            <label for="" class="offset-lg-1 col-lg-1 col-form-label">Jumlah</label>
-                            <div class="col-lg-2">
+                            <label for="" class="offset-sm-1 col-lg-1 col-form-label">Jumlah</label>
+                            <div class="col-sm-2">
                                 <input id="jumlah1" name="jumlah" type="text" value="{{ old('jumlah') }}"
                                         class="form-control"
                                         placeholder="Jumlah">
-                            </div>  
+                            </div>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-sm-2">
                             <button id="tambah" type="button" class="btn btn-primary">
                             Tambah
                             </button>
@@ -75,13 +72,12 @@
                     <div class="modal-dialog">
                         <div class="modal-content bg-secondary">
                             <div class="modal-header">
-                                <h4 class="modal-title">Secondary Modal</h4>
+                                <h4 class="modal-title">Daftar Belanja</h4>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span></button>
                             </div>
 
                             <div class="modal-body">
-                                <p>One fine body&hellip;</p>
 
                                 <!-- form start -->
 
@@ -154,11 +150,11 @@
             var harga = $(e).find('option:selected').data('harga'); //data('harga') adalah tag dari select option data-harga
             $(e).parent().siblings().find('.harga').html(harga);
         };
-        $(document).ready(function () { 
-            
+        $(document).ready(function () {
+
             $('#tambah').on('click', function(){
-                $('#dom').append('<label class="col-lg-2 col-form-label">Nama Barang</label><div class="col-lg-2"><select onchange="namaBarang(this)" id="barang" name="nama_barang" class="form-control"><option value="0" disabled="true" selected="true">-Select-</option>@foreach($barang as $data)<option data-harga="{{ $data->harga }}" data-barang="{{ $data->nama_barang }}"data-id_barang="{{ $data->id }}"value="{{ $data->nama_barang }}">{{ $data->nama_barang }}</option>@endforeach</select></div><label for="" class="offset-lg-1 col-lg-1 col-form-label">Harga</label><div class="col-lg-2"><label id="harga" class="form-control harga"></label></div><label for="" class="offset-lg-1 col-lg-1 col-form-label">Jumlah</label><div class="col-lg-2"><input id="jumlah1" name="jumlah" type="text" value="{{ old('jumlah') }}"class="form-control"placeholder="Jumlah"></div>');
-            });       
+                $('#dom').append('<label class="col-sm-2 col-form-label">Nama Barang</label><div class="col-sm-2"><select onchange="namaBarang(this)" id="barang" name="nama_barang" class="form-control"><option value="0" disabled="true" selected="true">-Select-</option>@foreach($barang as $data)<option data-harga="{{ $data->harga }}" data-barang="{{ $data->nama_barang }}"data-id_barang="{{ $data->id }}"value="{{ $data->nama_barang }}">{{ $data->nama_barang }}</option>@endforeach</select></div><label for="" class="offset-sm-1 col-lg-1 col-form-label">Harga</label><div class="col-sm-2"><label id="harga" class="form-control harga"></label></div><label for="" class="offset-sm-1 col-lg-1 col-form-label">Jumlah</label><div class="col-sm-2"><input id="jumlah1" name="jumlah" type="text" value="{{ old('jumlah') }}"class="form-control"placeholder="Jumlah"></div>');
+            });
 
             $('#barang').on('change', function () {
                 // var id_barang = $(this).val();

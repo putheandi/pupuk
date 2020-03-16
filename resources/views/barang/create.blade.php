@@ -23,9 +23,6 @@
         <section class="content">
             <!-- Horizontal Form -->
             <div class="card card-solid">
-                <div class="card-header">
-                    <h3 class="card-title">Horizontal Form</h3>
-                </div>
                 <!-- /.card-header -->
                 <!-- form start -->
                 <form class="form-horizontal" action="{{ route('barang.store') }}" method="post">
@@ -52,7 +49,7 @@
                                 <select name="jenis_paket" class="form-control" required>
                                     <option disabled>-Select-</option>
                                     @foreach($items as $item)
-                                        <option value="{{ $item->jumlah_isi }}">{{ $item->jumlah_isi }}</option>
+                                        <option value="{{ $item->jumlah_isi }}">{{$item->nama}} ({{ $item->jumlah_isi }})</option>
                                     @endforeach
                                 </select>
                             </div>

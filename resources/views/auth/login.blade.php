@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 3 | Log in</title>
+    <title>Toko | Log in</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,13 +24,13 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>Admin</b>LTE</a>
+        <a href="#"><b>Toko</b></a>
     </div>
     <!-- /.login-logo -->
     <div class="card">
         <div class="card-header">{{ __('Login') }}</div>
         <div class="card-body login-card-body">
-            <p class="login-box-msg">Sign in to start your session</p>
+            <p class="login-box-msg">Masuk Untuk Mengelola</p>
 
             <form action="{{ route('login') }}" method="post">
                 @csrf
@@ -67,7 +67,7 @@
                         <div class="icheck-primary">
                             <input type="checkbox" id="remember" name="remember" {{ old('remember') ? 'checked' : '' }}>
                             <label for="remember">
-                                {{ __('Remember Me') }}
+                                {{ __('Ingat Saya') }}
                             </label>
                         </div>
                     </div>

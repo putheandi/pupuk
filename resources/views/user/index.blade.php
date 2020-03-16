@@ -28,7 +28,7 @@
                 <div class="card-body">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">DataTable with default features</h3>
+                            <h3 class="card-title"></h3>
                             <a class="btn btn-success btn-sm float-right" href="{{ route('user.create') }}">
                                 <i class="fas fa-pencil-alt"></i>
                                 Tambah
@@ -55,7 +55,7 @@
                                 @if(count($user) > 0)
                                     @foreach($user as $data)
                                         <tr>
-                                            <td>{{ $data->nama }}</td>
+                                            <td>{{ $data->name }}</td>
                                             <td>{{ $data->username }}</td>
                                             <td class="project-actions">
                                                 <a href="{{ route('user.edit', [$data]) }}" class="btn btn-info btn-sm">
