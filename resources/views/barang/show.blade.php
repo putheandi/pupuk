@@ -40,8 +40,8 @@
                                 <thead>
                                 <tr>
                                     <th>Nama Barang</th>
-                                    <th>Nama User</th></th>
-                                    <th>id_penjualan</th>
+                                    <th>Nama User</th>
+                                    <th>Kode Transaksi</th>
                                     <th>jumlah</th>
                                     <th>Status</th>
                                     <th>Waktu</th>
@@ -50,8 +50,8 @@
                                 <tfoot>
                                 <tr>
                                     <th>Nama Barang</th>
-                                    <th>Nama User</th></th>
-                                    <th>id_penjualan</th>
+                                    <th>Nama User</th>
+                                    <th>Kode Transaksi</th>
                                     <th>jumlah</th>
                                     <th>Status</th>
                                     <th>Waktu</th>
@@ -62,8 +62,8 @@
                                     @foreach($barang as $data)
                                         <tr>
                                             <td>{{ $data->barang->nama_barang }}</td>
-                                            <td>{{ $data->user->username }}</td>
-                                            <td>{{ $data->id_penjualan }}</td>
+                                            <td>{{ $data->user->name }}</td>
+                                            <td>{{ $data->penjualan ? $data->penjualan->kode_transaksi:"" }}</td>
                                             <td>{{ $data->jumlah }}</td>
                                             <td>{{ $data->status }}</td>
                                             <td>{{ $data->created_at }}</td>

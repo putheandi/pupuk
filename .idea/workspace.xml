@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b86074-b5e1-470e-a159-b1bdb1cea386" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/barang/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/barang/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/barang/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +170,7 @@
       <workItem from="1582992720779" duration="12076000" />
       <workItem from="1583238734159" duration="13141000" />
       <workItem from="1583484363335" duration="600000" />
-      <workItem from="1584363412557" duration="1154000" />
+      <workItem from="1584363412557" duration="3094000" />
     </task>
     <task id="LOCAL-00001" summary="commit for pull">
       <created>1584371131653</created>
@@ -178,33 +179,64 @@
       <option name="project" value="LOCAL" />
       <updated>1584371131653</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit for log">
+      <created>1584371404933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584371404933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit for pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for pull" />
+    <MESSAGE value="commit for log" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit for log" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582888761674">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1582888761674" />
-    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2" timestamp="1584371383245">
+    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2" timestamp="1584371403621">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584371383245" />
+    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584371403621" />
+    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog" timestamp="1584372403774">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1584372403774" />
     <state x="395" y="100" key="MultipleFileMergeDialog" timestamp="1584371217839">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="395" y="100" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1584371217839" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1584371476025">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584371476025" />
     <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1584370774211">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584370774211" />
+    <state x="86" y="69" width="1114" height="618" key="find.popup" timestamp="1584371910285">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="86" y="69" width="1114" height="618" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1584371910285" />
     <state x="412" y="175" key="git4idea.merge.GitPullDialog" timestamp="1584371167755">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
