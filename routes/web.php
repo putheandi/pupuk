@@ -24,6 +24,7 @@ Route::group(['middleware' => 'auth'],function (){
     Route::get('barang/{barang}/edit', 'BarangController@edit')->name('barang.edit');
     Route::put('barang/{barang}', 'BarangController@update')->name('barang.update');
     Route::delete('barang/{barang}', 'BarangController@destroy')->name('barang.destroy');
+    Route::get('barang/{barang}', 'BarangController@show')->name('barang.show');
 
     Route::get('stok/create/{id}', 'StokController@create')->name('stok.create');
     Route::post('stok/{id}', 'StokController@store')->name('stok.store');
