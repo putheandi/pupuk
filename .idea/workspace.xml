@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d1b86074-b5e1-470e-a159-b1bdb1cea386" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PenjualanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PenjualanController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_22_143910_create_barang_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_22_143910_create_barang_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_22_144546_create_penjualan_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_22_144546_create_penjualan_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/messages.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/penjualan/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/penjualan/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/penjualan/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/penjualan/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +185,7 @@
       <workItem from="1584012276776" duration="31000" />
       <workItem from="1584016568586" duration="2341000" />
       <workItem from="1584164206560" duration="31000" />
+      <workItem from="1584360812798" duration="7877000" />
     </task>
     <task id="LOCAL-00001" summary="ubah tampilan sedikit, ubah field nama menjadi name di user&#10;tambahkan name di tabel user">
       <created>1584020834246</created>
@@ -194,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584020986566</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit for push">
+      <created>1584360841051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584360841051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,21 +217,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ubah tampilan sedikit, ubah field nama menjadi name di user&#10;tambahkan name di tabel user" />
     <MESSAGE value="hapus label default template" />
-    <option name="LAST_COMMIT_MESSAGE" value="hapus label default template" />
+    <MESSAGE value="commit for push" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit for push" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582888761674">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1582888761674" />
-    <state x="423" y="124" key="CommitChangelistDialog2" timestamp="1584020986407">
+    <state x="423" y="124" key="CommitChangelistDialog2" timestamp="1584360840797">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="423" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584020986407" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1584020988993">
+    <state x="423" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584360840797" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1584360858015">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1584020988993" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1584360858015" />
     <state x="466" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1584164219206">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

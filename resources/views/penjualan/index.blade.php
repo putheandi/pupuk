@@ -39,23 +39,19 @@
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
-                                    <th>Nama Barang</th>
+                                    <th>Kode Transaksi</th>
                                     <th>Jumlah Total</th>
                                     <th>Harga Total</th>
                                     <th>Waktu</th>
-                                    <th>Kode Transaksi</th>
-                                    <th>Sisa Stok</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
                                 <tfoot>
                                 <tr>
-                                    <th>Nama Barang</th>
+                                    <th>Kode Transaksi</th>
                                     <th>Jumlah Total</th>
                                     <th>Harga Total</th>
                                     <th>Waktu</th>
-                                    <th>Kode Transaksi</th>
-                                    <th>Sisa Stok</th>
                                     <th>Action</th>
                                 </tr>
                                 </tfoot>
@@ -63,11 +59,11 @@
                                 @if(count($penjualan) > 0)
                                     @foreach($penjualan as $data)
                                         <tr>
-                                            <td>{{ $data->barang->nama_barang }}</td>
+                                            <td>{{ $data->kode_transaksi }}</td>
                                             <td>{{ $data->jumlah_total }}</td>
-                                            <td>{{ $data->harga_total }}</td>
+                                            <td>{{ number_format($data->harga_total,0,',','.')}}</td>
                                             <td>{{ $data->created_at }}</td>
-                                            <td>{{ $data->barang->jumlah }}</td>
+                                            <td></td>
                                         </tr>
                                     @endforeach
                                 @endif
