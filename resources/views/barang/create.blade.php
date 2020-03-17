@@ -37,13 +37,6 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="" class="col-sm-2 col-form-label">Merk</label>
-                            <div class="col-sm-10">
-                                <input name="merk" value="{{ old('merk') }}" id=""
-                                       placeholder="Merk" class="form-control" type="text" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
                             <label for="" class="col-sm-2 col-form-label">Jumlah</label>
                             <div class="col-sm-10">
                                 <input name="jumlah" value="{{ old('jumlah') }}"  id=""

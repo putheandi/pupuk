@@ -46,5 +46,9 @@ class User extends Authenticatable
     public function penjualan(){
         return $this->hasMany('App\Model\Penjualan');
     }
+
+    public function history(){
+        return $this->hasMany('App\Model\History');
+    }
 }
 

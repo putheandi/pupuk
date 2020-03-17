@@ -40,7 +40,6 @@
                                 <thead>
                                 <tr>
                                     <th>Nama</th>
-                                    <th>Merk</th>
                                     <th>Stok</th>
                                     <th>Harga</th>
                                     <th>Action</th>
@@ -49,7 +48,6 @@
                                 <tfoot>
                                 <tr>
                                     <th>Nama</th>
-                                    <th>Merk</th>
                                     <th>Stok</th>
                                     <th>Harga</th>
                                     <th>Action</th>
@@ -60,7 +58,6 @@
                                     @foreach($barang as $data)
                                         <tr>
                                             <td>{{ $data->nama_barang }}</td>
-                                            <td>{{ $data->merk }}</td>
                                             <td>{{ $data->jumlah }}</td>
                                             <td>{{ $data->harga }}</td>
                                             <td class="project-actions">
@@ -69,6 +66,9 @@
                                                 </a>
                                                 <a href="{{ route('barang.edit', [$data]) }}" class="btn btn-info btn-sm">
                                                     <i class="fas fa-edit"></i> Edit
+                                                </a>
+                                                <a href="{{ route('barang.show', [$data]) }}" class="btn bg-teal btn-sm">
+                                                    <i class="fas fa-folder"></i> Log
                                                 </a>
                                                 <form action="{{ route('barang.destroy', [$data]) }}" method="post" style="display: inline">
                                                     @csrf

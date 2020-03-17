@@ -17,7 +17,6 @@ class CreateBarangTable extends Migration
             $table->bigIncrements('id');
             $table->integer('id_user');
             $table->string('nama_barang');
-            $table->string('merk');
             $table->integer('jumlah');
             $table->string('harga');
             $table->integer('user_create')->nullable();

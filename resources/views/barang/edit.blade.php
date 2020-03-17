@@ -40,14 +40,6 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="" class="col-sm-2 col-form-label">Merk</label>
-                            <div class="col-sm-10">
-                                <input name="merk" type="text" value="{{ $barang->merk ?? old('merk') }}"
-                                       class="form-control" id=""
-                                       placeholder="Merk">
-                            </div>
-                        </div>
-                        <div class="form-group row">
                             <label for="" class="col-sm-2 col-form-label">Harga</label>
                             <div class="col-sm-10">
                                 <input name="harga" type="text" value="{{ $barang->harga ?? old('harga') }}"

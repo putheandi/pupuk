@@ -16,4 +16,8 @@ class History extends Model
     public function penjualan(){
         return $this->belongsTo('App\Model\Penjualan', 'id_penjualan');
     }
+
+    public function user(){
+        return $this->belongsTo('App\User', 'id_user');
+    }
 }

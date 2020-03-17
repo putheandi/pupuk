@@ -7,12 +7,12 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>Daftar Transaksi</h1>
+                        <h1>Daftar Log</h1>
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            {{--                            <li class="breadcrumb-item"><a href="#">Barang</a></li>--}}
-                            <li class="breadcrumb-item active">Transaksi</li>
+                            <li class="breadcrumb-item"><a href="{{ route('barang.index') }}">Barang</a></li>
+                            <li class="breadcrumb-item active">Log</li>
                         </ol>
                     </div>
                 </div>
@@ -28,42 +28,45 @@
                 <div class="card-body">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title"></h3>
-                            <a class="btn btn-success btn-sm float-right" href="{{ route('penjualan.create') }}">
+                            <h3 class="card-title">DataTable with default features</h3>
+                            {{-- <a class="btn btn-success btn-sm float-right" href="{{ route('penjualan.create') }}">
                                 <i class="fas fa-pencil-alt"></i>
                                 Transaksi
-                            </a>
+                            </a> --}}
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
+                                    <th>Nama Barang</th>
+                                    <th>Nama User</th>
                                     <th>Kode Transaksi</th>
-                                    <th>Jumlah Total</th>
-                                    <th>Harga Total</th>
+                                    <th>jumlah</th>
+                                    <th>Status</th>
                                     <th>Waktu</th>
-                                    <th>Action</th>
                                 </tr>
                                 </thead>
                                 <tfoot>
                                 <tr>
+                                    <th>Nama Barang</th>
+                                    <th>Nama User</th>
                                     <th>Kode Transaksi</th>
-                                    <th>Jumlah Total</th>
-                                    <th>Harga Total</th>
+                                    <th>jumlah</th>
+                                    <th>Status</th>
                                     <th>Waktu</th>
-                                    <th>Action</th>
                                 </tr>
                                 </tfoot>
                                 <tbody>
-                                @if(count($penjualan) > 0)
-                                    @foreach($penjualan as $data)
+                                @if(count($barang) > 0)
+                                    @foreach($barang as $data)
                                         <tr>
-                                            <td>{{ $data->kode_transaksi }}</td>
-                                            <td>{{ $data->jumlah_total }}</td>
-                                            <td>{{ number_format($data->harga_total,0,',','.')}}</td>
+                                            <td>{{ $data->barang->nama_barang }}</td>
+                                            <td>{{ $data->user->name }}</td>
+                                            <td>{{ $data->penjualan ? $data->penjualan->kode_transaksi:"" }}</td>
+                                            <td>{{ $data->jumlah }}</td>
+                                            <td>{{ $data->status }}</td>
                                             <td>{{ $data->created_at }}</td>
-                                            <td></td>
                                         </tr>
                                     @endforeach
                                 @endif
