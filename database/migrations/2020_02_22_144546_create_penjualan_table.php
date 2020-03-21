@@ -16,7 +16,6 @@ class CreatePenjualanTable extends Migration
         Schema::create('penjualan', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('id_user');
-            $table->integer('id_barang');
             $table->string('kode_transaksi');
             $table->string('jumlah_total');
             $table->string('harga_total');
