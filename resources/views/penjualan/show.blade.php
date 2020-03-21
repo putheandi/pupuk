@@ -7,12 +7,14 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>Detail Penjualan</h1>
+                        @foreach($penjualan as $p)
+                            <h1>Detail Transaksi {{ $p->kode_transaksi }}</h1>
+                        @endforeach
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="{{ route('penjualan.index') }}">Penjualan</a></li>
-                            <li class="breadcrumb-item active">Detail Penjualan Kode ...</li>
+                            <li class="breadcrumb-item"><a href="{{ route('penjualan.index') }}">Daftar Transaksi</a></li>
+                            <li class="breadcrumb-item active">Detail Transaksi</li>
                         </ol>
                     </div>
                 </div>

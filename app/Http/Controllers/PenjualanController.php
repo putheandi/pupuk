@@ -18,8 +18,6 @@ class PenjualanController extends Controller
 
     public function show($id){
         $penjualan = Penjualan::where('id', $id)->get();
-//        $penjualan = Penjualan::where('id', $id)->first();
-//        dd($penjualan->barang->first()->pivot->harga);
         return view('penjualan.show', compact('penjualan'));
     }
 

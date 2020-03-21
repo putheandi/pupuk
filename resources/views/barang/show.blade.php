@@ -29,10 +29,6 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">DataTable with default features</h3>
-                            {{-- <a class="btn btn-success btn-sm float-right" href="{{ route('penjualan.create') }}">
-                                <i class="fas fa-pencil-alt"></i>
-                                Transaksi
-                            </a> --}}
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">

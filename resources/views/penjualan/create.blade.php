@@ -7,11 +7,11 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>Penjualan Barang</h1>
+                        <h1>Transaksi</h1>
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="{{ route('penjualan.index') }}">Transaksi</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('penjualan.index') }}">Daftar Transaksi</a></li>
                             <li class="breadcrumb-item active">Transaksi</li>
                         </ol>
                     </div>
