@@ -32,6 +32,7 @@ Route::group(['middleware' => 'auth'],function (){
     Route::get('penjualan', 'PenjualanController@index')->name('penjualan.index');
     Route::get('penjualan/create', 'PenjualanController@create')->name('penjualan.create');
     Route::post('penjualan', 'PenjualanController@store')->name('penjualan.store');
+    Route::get('penjualan/{penjualan}', 'PenjualanController@show')->name('penjualan.show');
 
     Route::resource('jenisPaket', 'JenisPaketController');
 

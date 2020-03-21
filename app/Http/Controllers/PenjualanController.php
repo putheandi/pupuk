@@ -16,6 +16,13 @@ class PenjualanController extends Controller
         return view('penjualan.index', compact('penjualan'));
     }
 
+    public function show($id){
+        $penjualan = Penjualan::where('id', $id)->get();
+//        $penjualan = Penjualan::where('id', $id)->first();
+//        dd($penjualan->barang->first()->pivot->harga);
+        return view('penjualan.show', compact('penjualan'));
+    }
+
     public function create()
     {
         $barang = Barang::all();

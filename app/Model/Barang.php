@@ -18,6 +18,10 @@ class Barang extends Model
 //        return $this->hasMany('App\Model\Penjualan', 'id_penjualan');
 //    }
 
+//    public function penjualan(){
+//        return $this->belongsToMany('App\Model\Penjualan', 'barang_penjualan', 'id_penjualan', 'id_barang');
+//    }
+
     public function history(){
         return $this->hasMany('App\Model\History');
     }

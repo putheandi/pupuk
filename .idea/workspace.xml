@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1b86074-b5e1-470e-a159-b1bdb1cea386" name="Default Changelist" comment="id_penjualan menjadi kode_transaksi">
+    <list default="true" id="d1b86074-b5e1-470e-a159-b1bdb1cea386" name="Default Changelist" comment="detail transaksi">
+      <change afterPath="$PROJECT_DIR$/resources/views/penjualan/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PenjualanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PenjualanController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Barang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Barang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Penjualan.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Penjualan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/penjualan/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/penjualan/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +176,8 @@
       <workItem from="1583238734159" duration="13141000" />
       <workItem from="1583484363335" duration="600000" />
       <workItem from="1584363412557" duration="3922000" />
+      <workItem from="1584773557408" duration="2298000" />
+      <workItem from="1584792987441" duration="5982000" />
     </task>
     <task id="LOCAL-00001" summary="commit for pull">
       <created>1584371131653</created>
@@ -192,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584373321494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1584773707654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584773707654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +218,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -213,40 +230,42 @@
     <MESSAGE value="commit for pull" />
     <MESSAGE value="commit for log" />
     <MESSAGE value="id_penjualan menjadi kode_transaksi" />
-    <option name="LAST_COMMIT_MESSAGE" value="id_penjualan menjadi kode_transaksi" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="detail transaksi" />
+    <option name="LAST_COMMIT_MESSAGE" value="detail transaksi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582888761674">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1582888761674" />
-    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2" timestamp="1584373437082">
+    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2" timestamp="1584813006393">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584373437082" />
+    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584813006393" />
     <state x="92" y="92" width="1182" height="584" key="DiffContextDialog" timestamp="1584372403774">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="92" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1584372403774" />
-    <state x="395" y="100" key="MultipleFileMergeDialog" timestamp="1584371217839">
+    <state x="395" y="100" key="MultipleFileMergeDialog" timestamp="1584773743811">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="395" y="100" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1584371217839" />
+    <state x="395" y="100" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1584773743811" />
     <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1584373343164">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584373343164" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1584773561463">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1584793053665">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584773561463" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584793053665" />
     <state x="86" y="69" width="1114" height="618" key="find.popup" timestamp="1584371910285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="86" y="69" width="1114" height="618" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1584371910285" />
-    <state x="412" y="175" key="git4idea.merge.GitPullDialog" timestamp="1584773649715">
+    <state x="412" y="175" key="git4idea.merge.GitPullDialog" timestamp="1584773733593">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="412" y="175" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1584773649715" />
+    <state x="412" y="175" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1584773733593" />
   </component>
 </project>

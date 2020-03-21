@@ -7,12 +7,12 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>Daftar Transaksi</h1>
+                        <h1>Detail Penjualan</h1>
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            {{--                            <li class="breadcrumb-item"><a href="#">Barang</a></li>--}}
-                            <li class="breadcrumb-item active">Transaksi</li>
+                            <li class="breadcrumb-item"><a href="{{ route('penjualan.index') }}">Penjualan</a></li>
+                            <li class="breadcrumb-item active">Detail Penjualan Kode ...</li>
                         </ol>
                     </div>
                 </div>
@@ -28,11 +28,7 @@
                 <div class="card-body">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title"></h3>
-                            <a class="btn btn-success btn-sm float-right" href="{{ route('penjualan.create') }}">
-                                <i class="fas fa-pencil-alt"></i>
-                                Transaksi
-                            </a>
+                            <h3 class="card-title">DataTable with default features</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
@@ -40,35 +36,33 @@
                                 <thead>
                                 <tr>
                                     <th>Kode Transaksi</th>
-                                    <th>Jumlah Total</th>
-                                    <th>Harga Total</th>
-                                    <th>Waktu</th>
-                                    <th>Action</th>
+                                    <th>Nama Barang</th>
+                                    <th>jumlah</th>
+                                    <th>Harga</th>
+                                    <th>Total Harga</th>
                                 </tr>
                                 </thead>
                                 <tfoot>
                                 <tr>
                                     <th>Kode Transaksi</th>
-                                    <th>Jumlah Total</th>
-                                    <th>Harga Total</th>
-                                    <th>Waktu</th>
-                                    <th>Action</th>
+                                    <th>Nama Barang</th>
+                                    <th>jumlah</th>
+                                    <th>Harga</th>
+                                    <th>Total Harga</th>
                                 </tr>
                                 </tfoot>
                                 <tbody>
                                 @if(count($penjualan) > 0)
-                                    @foreach($penjualan as $data)
-                                        <tr>
-                                            <td>{{ $data->kode_transaksi }}</td>
-                                            <td>{{ $data->jumlah_total }}</td>
-                                            <td>{{ number_format($data->harga_total,0,',','.')}}</td>
-                                            <td>{{ $data->created_at }}</td>
-                                            <td>
-                                                <a href="{{ route('penjualan.show', [$data]) }}" class="btn bg-teal btn-sm">
-                                                    <i class="fas fa-folder"></i> Detail
-                                                </a>
-                                            </td>
-                                        </tr>
+                                    @foreach($penjualan as $p)
+                                        @foreach($p->barang as $b)
+                                            <tr>
+                                                <td>{{ $p->kode_transaksi }}</td>
+                                                <td>{{ $b->nama_barang }}</td>
+                                                <td>{{ $b->pivot->jumlah }}</td>
+                                                <td>{{ $b->pivot->harga }}</td>
+                                                <td>{{ $b->pivot->harga_total }}</td>
+                                            </tr>
+                                        @endforeach
                                     @endforeach
                                 @endif
                                 </tbody>

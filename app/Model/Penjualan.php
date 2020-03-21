@@ -14,7 +14,7 @@ class Penjualan extends Model
     }
 
     public function barang(){
-        return $this->belongsToMany('App\Model\Barang', 'barang_penjualan', 'id_penjualan', 'id_barang');
+        return $this->belongsToMany('App\Model\Barang', 'barang_penjualan', 'id_penjualan', 'id_barang')->withPivot(['jumlah','harga','harga_total']);
     }
 
     public function history(){
