@@ -60,7 +60,7 @@
                                             <td>{{ $data->barang->nama_barang }}</td>
                                             <td>{{ $data->user->name }}</td>
                                             <td>{{ $data->penjualan ? $data->penjualan->kode_transaksi:"" }}</td>
-                                            <td>{{ $data->jumlah }}</td>
+                                            <td>{{ number_format($data->jumlah,0,',','.') }}</td>
                                             <td>{{ $data->status }}</td>
                                             <td>{{ $data->created_at }}</td>
                                         </tr>

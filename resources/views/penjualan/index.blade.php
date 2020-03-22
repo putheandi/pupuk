@@ -60,8 +60,8 @@
                                     @foreach($penjualan as $data)
                                         <tr>
                                             <td>{{ $data->kode_transaksi }}</td>
-                                            <td>{{ $data->jumlah_total }}</td>
-                                            <td>{{ number_format($data->harga_total,0,',','.')}}</td>
+                                            <td>{{ number_format($data->jumlah_total,0,',','.') }}</td>
+                                            <td>Rp. {{ number_format($data->harga_total,0,',','.') }}</td>
                                             <td>{{ $data->created_at }}</td>
                                             <td>
                                                 <a href="{{ route('penjualan.show', [$data]) }}" class="btn bg-teal btn-sm">

@@ -58,8 +58,8 @@
                                     @foreach($barang as $data)
                                         <tr>
                                             <td>{{ $data->nama_barang }}</td>
-                                            <td>{{ $data->jumlah }}</td>
-                                            <td>{{ $data->harga }}</td>
+                                            <td>{{ number_format($data->jumlah,0,',','.') }}</td>
+                                            <td>Rp. {{ number_format($data->harga,0,',','.') }}</td>
                                             <td class="project-actions">
                                                 <a href="{{ route('stok.create', [$data]) }}" class="btn btn-primary btn-sm">
                                                     <i class="fas fa-plus"></i> Stok

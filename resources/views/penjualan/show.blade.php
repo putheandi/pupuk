@@ -60,9 +60,10 @@
                                             <tr>
                                                 <td>{{ $p->kode_transaksi }}</td>
                                                 <td>{{ $b->nama_barang }}</td>
-                                                <td>{{ $b->pivot->jumlah }}</td>
-                                                <td>{{ $b->pivot->harga }}</td>
-                                                <td>{{ $b->pivot->harga_total }}</td>
+                                                <td>{{ number_format($b->pivot->jumlah,0,',','.') }}</td>
+                                                <td>Rp. {{ number_format($b->pivot->harga,0,',','.') }}</td>
+
+                                                <td>Rp. {{ number_format($b->pivot->harga_total,0,',','.') }}</td>
                                             </tr>
                                         @endforeach
                                     @endforeach

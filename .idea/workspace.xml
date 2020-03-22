@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d1b86074-b5e1-470e-a159-b1bdb1cea386" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PenjualanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PenjualanController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/penjualan/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/penjualan/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/barang/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/barang/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/barang/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/barang/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/penjualan/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/penjualan/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/penjualan/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/penjualan/show.blade.php" afterDir="false" />
     </list>
@@ -175,7 +175,8 @@
       <workItem from="1583484363335" duration="600000" />
       <workItem from="1584363412557" duration="3922000" />
       <workItem from="1584773557408" duration="2298000" />
-      <workItem from="1584792987441" duration="7835000" />
+      <workItem from="1584792987441" duration="7923000" />
+      <workItem from="1584875388137" duration="3652000" />
     </task>
     <task id="LOCAL-00001" summary="commit for pull">
       <created>1584371131653</created>
@@ -212,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584813044815</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="label">
+      <created>1584814914574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584814914574</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,17 +245,18 @@
     <MESSAGE value="id_penjualan menjadi kode_transaksi" />
     <MESSAGE value="commit" />
     <MESSAGE value="detail transaksi" />
-    <option name="LAST_COMMIT_MESSAGE" value="detail transaksi" />
+    <MESSAGE value="label" />
+    <option name="LAST_COMMIT_MESSAGE" value="label" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582888761674">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1582888761674" />
-    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2" timestamp="1584813043139">
+    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2" timestamp="1584814913402">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584813043139" />
+    <state x="-7" y="0" width="1301" height="768" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584814913402" />
     <state x="92" y="92" width="1182" height="584" key="DiffContextDialog" timestamp="1584372403774">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -256,14 +265,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="395" y="100" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1584773743811" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1584813050453">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1584814920668">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584813050453" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1584793053665">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584814920668" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1584877158452">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584793053665" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584877158452" />
     <state x="86" y="69" width="1114" height="618" key="find.popup" timestamp="1584371910285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
