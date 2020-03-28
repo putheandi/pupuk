@@ -1,7 +1,7 @@
 <div class="form-group row">
     <label for="" class="col-xl-2 col-form-label">Nama</label>
-    <div class="col-xl-8">
-        <input name="nama" type="text" value="{{ old('name') ?? $user->name }}" class="form-control"
+    <div class="col-sm-10">
+        <input name="name" type="text" value="{{ old('name') ?? $user->name }}" class="form-control"
                id="" placeholder="Nama" required autofocus>
     </div>
 </div>

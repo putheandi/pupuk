@@ -28,7 +28,7 @@
                     <a href="{{ route('penjualan.index') }}" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>
                         <p>
-                            Transaksi
+                            Penjualan
                         </p>
                     </a>
                 </li>

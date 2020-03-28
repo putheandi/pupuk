@@ -32,7 +32,7 @@
                         @include('inc.messages')
                         <div class="form-group row">
                             <label for="" class="col-xl-2 col-form-label">Nama Barang</label>
-                            <div class="col-xl-8">
+                            <div class="col-sm-10">
                                 <input name="nama_barang" type="text"
                                        value="{{ $barang->nama_barang ?? old('nama_barang') }}" class="form-control"
                                        id=""

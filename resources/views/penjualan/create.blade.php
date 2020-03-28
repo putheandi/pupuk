@@ -11,7 +11,7 @@
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="{{ route('penjualan.index') }}">Daftar Transaksi</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('penjualan.index') }}">Daftar Penjualan</a></li>
                             <li class="breadcrumb-item active">Transaksi</li>
                         </ol>
                     </div>

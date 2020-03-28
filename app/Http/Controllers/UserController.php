@@ -19,15 +19,15 @@ class UserController extends Controller
 
     public function store(){
         $data = request()->validate([
-            'nama' => 'required',
+            'name' => 'required',
             'username' => 'required|unique:users',
             'password' => 'required',
         ], [
-            'nama.required' => 'Nama Tidak Boleh Kosong',
-            'username.required' => 'username Tidak Boleh Kosong',
-            'password.required' => 'password Tidak Boleh Kosong',
+            'name.required' => 'Nama Tidak Boleh Kosong',
+            'username.required' => 'Username Tidak Boleh Kosong',
+            'username.unique' => 'Username Sudah Terdaftar, Masukkan Username yang Lain',
+            'password.required' => 'Password Tidak Boleh Kosong',
         ]);
-//        dd($data);
 
         $data['password'] = bcrypt($data['password']);
         User::create($data);
@@ -40,14 +40,16 @@ class UserController extends Controller
 
     public function update(User $user){
         $data = request()->validate([
-            'nama' => 'required',
-            'username' => 'required|unique:users',
+            'name' => 'required',
+            'username' => 'required',
             'password' => 'required',
         ], [
-            'nama.required' => 'Nama Tidak Boleh Kosong',
+            'name.required' => 'Nama Tidak Boleh Kosong',
             'username.required' => 'username Tidak Boleh Kosong',
             'password.required' => 'password Tidak Boleh Kosong',
         ]);
+
+        $data['password'] = bcrypt($data['password']);
         $user->update($data);
         return redirect('user')->with('success', 'Data Berhasil di Ubah');
     }
